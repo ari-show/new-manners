@@ -1,7 +1,7 @@
 
 services:
   node-app:
-    image: node:18
+    image: node:22
     volumes:
       - ./src:/app/src
     tty: true
